@@ -14,7 +14,7 @@
                                     if ($username == 'change_this_to_what_you_want_as_username') {
                                         //If USERNAME is right, same for PASSWORD\\
                                         if ($password === 'change_this_to_what_you_want_as_password') {
-                                            //User is correctly login after that and will be redirect to the welcome page, check $_SESSION attribute to understand why I wrote them here
+                                            //User is correctly login after that and will be redirect to the welcome page, check $_SESSION tuto on my github page to see their utility and to understand why I wrote them here
                                             session_start();
                                             $_SESSION['token'] = random_int('0', '999');
                                             $_SESSION['token_num'] = $_SESSION['token'];
