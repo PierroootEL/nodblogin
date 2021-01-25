@@ -23,11 +23,11 @@ The second part is the interesting part, let's decrypt what it says :
     ```
     method parameters is just saying what type of transport we're gonna use, to explain it way easier, imagine post is a plane and get is a train those are two options we could set in method="" parameter, BUT, i prefer post, idk why but i prefer, if i take the plane, it means that I'm not using the train, it's the same here, if I use the post methond for X form, everything related to this form has to be in post method. 
     
-    Inside this form we have two label, label are like "a" mark, there purpose is to display text.
-    Then we have three input, the first one is for the username, type="text" is just use to tell the website to let "clear" what we type in this input
-    Second input, is for the password, type="pass" tells to te website to hide what the user type for security
-    Last input is the submit input, it works as a button, and he's related to the form he's inside, when you press it, it gathered all the information of all inputs inside the form and post them inside the http / s header.
-    Thanks to the http header, the user's information are "save" inside are can travel between pages. 
+ Inside this form we have two label, label are like "a" mark, there purpose is to display text.
+ Then we have three input, the first one is for the username, type="text" is just use to tell the website to let "clear" what we type in this input
+ Second input, is for the password, type="pass" tells to te website to hide what the user type for security
+ Last input is the submit input, it works as a button, and he's related to the form he's inside, when you press it, it gathered all the information of all inputs inside the form   and post them inside the http / s header.
+  Thanks to the http header, the user's information are "save" inside are can travel between pages. 
 
 ```
 <html>
